@@ -7,7 +7,8 @@
     "scripts": {
         "appium": "appium",
         "appium-doctor": "appium-doctor",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test:e2e:android": "wdio ./config/wdio.android.conf.js",
+        "test:e2e:ios": "wdio ./config/wdio.ios.conf.js"
     },
     "author": "Apache Cordova Team",
     "license": "Apache-2.0",
